@@ -85,3 +85,21 @@ You can run the tests by executing the following command:
 
 ```bash
 mvn test
+```
+This will execute the tests defined in the testng.xml file located in the src/test/resources directory.
+
+Contributing
+Contributions are welcome! To contribute to this project, follow these steps:
+
+Fork the repository.
+
+Create a new branch (git checkout -b feature-branch).
+
+Make your changes and commit them (git commit -m 'Add new feature').
+
+Push to the branch (git push origin feature-branch).
+
+Create a new Pull Request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
