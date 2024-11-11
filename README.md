@@ -88,7 +88,8 @@ mvn test
 ```
 This will execute the tests defined in the testng.xml file located in the src/suites/wdiodemoApp.mobile directory.
 
-Contributing
+##Contributing
+
 Contributions are welcome! To contribute to this project, follow these steps:
 
 Fork the repository.
@@ -101,5 +102,5 @@ Push to the branch (git push origin feature-branch).
 
 Create a new Pull Request.
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
