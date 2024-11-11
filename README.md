@@ -51,7 +51,13 @@ To set up this project locally, follow these steps:
     npm install
     ```
 
-3. Install Maven dependencies:
+3. Install Appium:
+
+    ```bash
+    npm install -g appium
+    ```
+
+4. Install Maven dependencies:
 
     ```bash
     mvn install
