@@ -86,7 +86,7 @@ You can run the tests by executing the following command:
 ```bash
 mvn test
 ```
-This will execute the tests defined in the testng.xml file located in the src/test/resources directory.
+This will execute the tests defined in the testng.xml file located in the src/suites/wdiodemoApp.mobile directory.
 
 Contributing
 Contributions are welcome! To contribute to this project, follow these steps:
