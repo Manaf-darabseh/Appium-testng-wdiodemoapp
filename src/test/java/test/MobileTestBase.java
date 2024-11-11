@@ -37,7 +37,7 @@ public class MobileTestBase {
         System.getProperties().load(new FileReader("src/test/resources/"+projectName+".mobile/"+projectName+".mobile.properties"));
         platform = System.getProperty("platform");
         prepareDriver();
-       page = new PageFactory(driver);
+       page = new PageFactory((AndroidDriver) driver);
     }
 
     @AfterSuite
@@ -91,9 +91,13 @@ public class MobileTestBase {
             caps.setCapability("appium:appPackage", System.getProperty("appPackage"));
             caps.setCapability("appium:appActivity", System.getProperty("appActivity"));
             caps.setCapability("appium:fullReset", true);
+            caps.setCapability("mobile: swipe", true); // Enable swipe capability
+
+
 //            driver = new AndroidDriver(remoteUrl, caps);
             startAppiumServer();
             // Initialize the Appium driver
+//            driver = new AndroidDriver(remoteUrl, caps);
             driver = new AndroidDriver(remoteUrl, caps);
 
         }

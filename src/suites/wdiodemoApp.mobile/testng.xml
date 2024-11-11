@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Transfer Test ">
+
+    <test name="Approve the transfer" preserve-order="true">
+        <classes>
+            <class name="test.wdiodemoAppSignUp"/>
+            <class name="test.wdiodemoAppLogin"/>
+            <class name="test.wdiodemoAppForm"/>
+            <class name="test.wdiodemoAppSwipeScreen"/>
+        </classes>
+    </test>
+</suite>
